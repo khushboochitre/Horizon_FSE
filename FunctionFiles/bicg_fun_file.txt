@@ -1,2 +1,0 @@
-main
-polybench_timer_start

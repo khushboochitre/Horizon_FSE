@@ -1,6 +1,0 @@
-FFT1DOnce
-Transpose
-Main
-FFT1D
-
-
