@@ -1,10 +1,10 @@
 Building Horizon
 
-1) Clone llvm's source code using the follwing command:
+1) Clone llvm's source folder using the follwing command:
 
 git clone https://github.com/llvm-mirror/llvm
 
-2) Clone clang's source code to the tools directory present in the llvm folder using the follwing command:
+2) Clone clang's source folder to the tools directory present in the llvm folder using the follwing command:
 
 git clone https://github.com/llvm-mirror/clang
 
