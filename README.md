@@ -1,12 +1,12 @@
 Building Horizon
 
-1) Clone the llvm git repository.
+1) Clone llvm's source code using the follwing command:
 
-https://github.com/llvm-mirror/llvm
+git clone https://github.com/llvm-mirror/llvm
 
-2) Clone clang to the tools directory present in the llvm folder.
+2) Clone clang's source code to the tools directory present in the llvm folder using the follwing command:
 
-https://github.com/llvm-mirror/clang
+git clone https://github.com/llvm-mirror/clang
 
 3) Copy the contents (files and folders) present in src/lib to the cloned llvm folder (lib/Analysis). Replace the CMakeLists.txt present in the cloned llvm folder (lib/Analysis).
 
