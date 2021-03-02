@@ -8,7 +8,7 @@ https://github.com/llvm-mirror/llvm
 
 https://github.com/llvm-mirror/clang
 
-3) Copy all the contents present in src/lib to the cloned llvm folder (lib/Analysis). 
+3) Copy the contents (files and folders) present in src/lib to the cloned llvm folder (lib/Analysis). 
 
 4) Copy the DynAA folder present in src/include to the cloned llvm folder (include/llvm/Analysis).
 
