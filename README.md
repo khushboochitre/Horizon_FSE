@@ -8,39 +8,23 @@ libffi: sudo apt-get install -y libffi-dev
 
 Building Horizon
 
-1) Clone llvm's source folder using the follwing command:
-
-   git clone https://github.com/llvm-mirror/llvm
+1) Download the llvm's source folder named llvm on the link.
 
 2) Clone clang's source folder to the tools directory present in the llvm folder using the follwing command:
 
    git clone https://github.com/llvm-mirror/clang
 
-3) Copy the contents (files and folders) present in src/lib to the cloned llvm folder (lib/Analysis). 
+3) Create a new folder to build llvm (e.g. build).
 
-4) Add following to the CMakeLists.txt present in the cloned llvm folder (lib/Analysis) where the names of other .cpp files appear.
-   
-   InstrumentedFunctions.cpp
-   
-   UtilityFunctions.cpp
-   
-   GetDynamicAAResults.cpp 
+4) Place the build.sh file present in the scripts folder to llvm’s build folder.
 
-5) Add add_subdirectory (DynAA) at the end of CMakeLists.txt present in the cloned llvm folder (lib/Analysis).
+5) Specify the path to llvm’s source folder (downloaded in step 1) in the build.sh file.
 
-6) Copy the DynAA folder present in src/include to the cloned llvm folder (include/llvm/Analysis).
+6) Go to the build folder and execute the following commands to build llvm:
 
-7) Create a new folder to build llvm (e.g. build).
+   ./build.sh
 
-8) Place the build.sh file present in the scripts folder to llvm’s build folder.
-
-9) Specify the path to llvm’s source folder (cloned in step 1) in the build.sh file.
-
-10) Go to the build folder and execute the following commands to build llvm:
-
-./build.sh
-
-ninja
+   ninja
 
 
 Function files
