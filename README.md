@@ -26,7 +26,7 @@ git clone https://github.com/llvm-mirror/clang
 
 8) Place the build.sh file present in the scripts folder to llvm’s build folder.
 
-9) Specify the path to llvm’s source code in the build.sh file.
+9) Specify the path to llvm’s source folder (cloned in step 1) in the build.sh file.
 
 10) Go to the build folder and execute the following commands to build llvm:
 
