@@ -4,6 +4,8 @@ cmake: sudo apt-get install cmake
 
 ninja: sudo apt install ninja-build
 
+libffi: sudo apt-get install -y libffi-dev
+
 Building Horizon
 
 1) Clone llvm's source folder using the follwing command:
