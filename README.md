@@ -1,12 +1,18 @@
+The following should be installed before building Horizon:
+
+cmake: sudo apt-get install cmake
+
+ninja: sudo apt install ninja-build
+
 Building Horizon
 
 1) Clone llvm's source folder using the follwing command:
 
-git clone https://github.com/llvm-mirror/llvm
+   git clone https://github.com/llvm-mirror/llvm
 
 2) Clone clang's source folder to the tools directory present in the llvm folder using the follwing command:
 
-git clone https://github.com/llvm-mirror/clang
+   git clone https://github.com/llvm-mirror/clang
 
 3) Copy the contents (files and folders) present in src/lib to the cloned llvm folder (lib/Analysis). 
 
