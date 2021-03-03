@@ -11,8 +11,11 @@ git clone https://github.com/llvm-mirror/clang
 3) Copy the contents (files and folders) present in src/lib to the cloned llvm folder (lib/Analysis). 
 
 4) Add following to the CMakeLists.txt present in the cloned llvm folder (lib/Analysis) where the names of other .cpp files appear.
+   
    InstrumentedFunctions.cpp
+   
    UtilityFunctions.cpp
+   
    GetDynamicAAResults.cpp 
 
 5) Add add_subdirectory (DynAA) at the end of CMakeLists.txt present in the cloned llvm folder (lib/Analysis).
