@@ -8,7 +8,7 @@ libffi: sudo apt-get install -y libffi-dev
 
 Building Horizon
 
-1) Download the llvm's source folder named llvm on the link.
+1) Download LLVM's source folder (llvm) included in this repository.
 
 2) Clone clang's source folder to the tools directory present in the llvm folder using the following command:
 
