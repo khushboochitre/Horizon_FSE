@@ -120,3 +120,6 @@ CPU SPEC 2017 benchmarks
 
 ./specrun.sh use-annotation
 
+Note: While executing a script, if you get the "Permission denied" error, execute the following command before and then execute the script:
+
+chmod +x script-name
