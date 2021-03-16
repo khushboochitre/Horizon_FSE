@@ -67,9 +67,11 @@ https://sourceforge.net/projects/polybench/
 
 SPLASH-2 benchmarks
 
-1) Download the source code for the SPLASH-2 benchmarks using the following link:
+1) Download SPLASH-2 benchmarks by following the link:
 
-http://web.archive.org/web/20070704172333/http://www-flash.stanford.edu/apps/SPLASH/splash2.tar.gz
+https://docs.google.com/document/d/1B7nZSqMLwkwoVNEj_58tMPTk4bKWvoEMbokOAjqeC-k/preview
+
+Follow the "Get SPLASH-2" and "Patch SPLASH-2" sections from the document. 
 
 2) Replace Makefile.config with the one present in the scripts/SPLASH-2 folder. 
 
