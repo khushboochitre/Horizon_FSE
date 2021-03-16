@@ -50,7 +50,7 @@ https://sourceforge.net/projects/polybench/
 
 4) Set the value of the variable LLVM_ROOT_PATH in the run.sh file to the path of llvm’s build folder.
 
-5) Set the variable BENCHMARK to execute the specific benchmarks.
+5) Set the variable BENCHMARK in the run.sh file to execute the specific benchmarks.
 
 6) To execute the native run,
 
