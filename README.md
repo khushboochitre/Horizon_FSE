@@ -50,7 +50,7 @@ https://sourceforge.net/projects/polybench/
 
 4) Set the value of the variable LLVM_ROOT_PATH in the run.sh file to the path of llvm’s build folder.
 
-5) Set the variable BENCHMARK to the benchmark name in the run.sh file to execute the specific benchmarks. The default value will execute all the benchmarks of polybench benchmark suite.
+5) Set the variable BENCHMARK to the benchmark name in the run.sh file to execute the specific benchmarks. For example, BENCHMARK="jacobi-1d". The default value will execute all the benchmarks of polybench benchmark suite.
 
 6) To execute the native run,
 
@@ -81,7 +81,7 @@ http://web.archive.org/web/20070704172333/http://www-flash.stanford.edu/apps/SPL
 
 6) Place the splashrun.sh file present in scripts/SPLASH-2 folder into the source folder of SPLASH-2.
 
-7) Set the variable BENCHMARK to execute the specific benchmarks.
+7) Set the variable BENCHMARK to the benchmark name in the splashrun.sh file to execute the specific benchmarks.
 
 8) To execute the native run,
 
