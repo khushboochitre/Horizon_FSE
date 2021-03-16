@@ -10,17 +10,21 @@ Building Horizon
 
 1) Download the llvm's source folder named llvm on the link.
 
-2) Clone clang's source folder to the tools directory present in the llvm folder using the follwing command:
+2) Clone clang's source folder to the tools directory present in the llvm folder using the following command:
 
    git clone https://github.com/llvm-mirror/clang
+   
+3) Clone source folder of compiler-rt to the projects directory present in the llvm folder using the following command:
 
-3) Create a new folder to build llvm (e.g. build).
+   git clone https://github.com/llvm-mirror/compiler-rt
 
-4) Place the build.sh file present in the scripts folder to llvm’s build folder.
+4) Create a new folder to build llvm (e.g. build).
 
-5) Specify the path to llvm’s source folder (downloaded in step 1) in the build.sh file.
+5) Place the build.sh file present in the scripts folder to llvm’s build folder.
 
-6) Go to the build folder and execute the following commands to build llvm:
+6) Specify the path to llvm’s source folder (downloaded in step 1) in the build.sh file.
+
+7) Go to the build folder and execute the following commands to build llvm:
 
    ./build.sh
 
