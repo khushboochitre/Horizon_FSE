@@ -79,9 +79,9 @@ Follow the "Get SPLASH-2" and "Patch SPLASH-2" sections from the document.
 
 4) Set the value of the variable LLVM_ROOT_PATH in the Makefile.config file to the path of llvm’s build folder.
 
-5) Set the value of the variable BASEDIR in the run.sh file to the path of SPLASH-2’s source directory.
+5) Set the value of the variable BASEDIR in the Makefile.config file to the path of SPLASH-2’s source directory.
 
-6) Place the splashrun.sh file present in scripts/SPLASH-2 folder into the source folder of SPLASH-2.
+6) Place the splashrun.sh file present in scripts/SPLASH-2 folder into the source folder of SPLASH-2 (where Makefile.config is present).
 
 7) Set the variable BENCHMARK to the benchmark name in the splashrun.sh file to execute the specific benchmarks.
 
